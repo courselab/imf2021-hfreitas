@@ -9,6 +9,7 @@ decode: decode.o dummy.o
 
 dummy.o: dummy.c
 	${CC} -m32 $< -c
+
 .PHONY: clean
 clean:
 	rm -f decode
